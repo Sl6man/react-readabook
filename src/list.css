@@ -1,0 +1,48 @@
+
+.book-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+
+.progress-container{
+    background-color: #6b62ff;
+    border-radius: 0.25rem;
+}
+
+.progress{
+    background-color: #ff6584;
+    height: 0.5rem;
+    max-width: 100%;
+}
+
+.progress-input{
+    border: 1px #ff6584 solid;
+    background-color: #212529;
+    border-radius: 0.25rem;
+    margin-bottom: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    color: white;
+    box-shadow: #FF6584 0px 0px 2px 0px;
+
+}
+
+.progress-input:focus{
+    outline: none;
+
+}
+
+
+.books-img{
+    height: 25rem;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 565px) {
+    .books-img{
+        height: 10rem;
+        padding: 1rem;
+    }
+}
