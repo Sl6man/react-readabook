@@ -64,3 +64,31 @@ body{
     cursor: pointer;
     color: #FF6584;
 }
+
+
+
+@media only screen and (max-width: 510px) {
+    #root > div > div.left > div > h1{
+        font-size: 3rem;
+    }
+    div.left > form > div > input{
+        width: 10rem;
+        z-index: 99;
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 436px) {
+    #root > div > div.left > div > h1{
+        font-size: 2.5rem;
+    }
+    div.left > form > div > input{
+        width: 10rem;
+        z-index: 99;
+    }
+    .text-muted{
+        font-size: .75rem;
+    }
+}
+
